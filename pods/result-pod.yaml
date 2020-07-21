@@ -10,3 +10,5 @@ spec:
   containers:
     - name: result-pod
       image: docker/example-voting-app-result
+      ports:
+        - containerPort: 80
