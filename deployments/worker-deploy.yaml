@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: worker-pod
-          image: docker/example-voting-app-worker
+          image: bretfisher/examplevotingapp_worker:java
 
-  replicas: 2
+  replicas: 1
         

@@ -24,6 +24,6 @@ spec:
           image: docker/example-voting-app-vote
           ports:
             - containerPort: 80
-  replicas: 2
+  replicas: 1
     
 
